@@ -1,0 +1,134 @@
+a{
+ text-decoration: none;
+ color: black;
+}
+header{
+    background: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+}
+header  img{
+    width: 30px;
+}
+header div{
+    width: 150px;
+    background: black;
+}
+aside{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+aside div{
+    margin-top: 20px;
+}
+aside div:nth-of-type(1){
+    margin-left: 10px;
+    width: 100px;
+    margin-top:0px;
+    padding: 10px 0px;
+    font-size:20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#basket{
+    width: 120px;
+    text-align: center;
+    padding:5px;
+    padding-top:15px;
+    border-radius: 30px;
+
+}
+#basket p{
+    float:left;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+#basket img{
+    margin-right: 15px;
+}
+
+/*-----------------------------_____MENU_____-----------------------------------------------------*/
+
+nav{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 30px;
+}
+.links{
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+/*----------------------------------___CENTER____---------------------------------------------*/
+
+section{
+    margin-top: 40px;
+}
+section ul{
+    margin-left: 43%;
+}
+section ul li{
+    list-style-type: none;
+    display:inline;
+
+    
+}
+section ul img{
+    width: 40px;
+}
+
+section > div:nth-of-type(2){
+    margin-top:-370px;
+    margin-left: 15%;
+    background:white;
+}
+section > div:nth-of-type(2) img{
+    width: 85%;
+}
+section div:nth-of-type(1){
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+#towars{
+
+    display: flex;
+    justify-content:space-around;
+}
+#towars img{
+    width: 300px;
+    float: left;
+    position: relative;
+}
+
+#towars > div:nth-of-type(1){
+    margin-top: 0px;
+}
+
+#towars > div div{
+    position: relative;
+    background: rgba(0,0,0,0.4);
+    width:100%;
+    height: 200px;
+    margin: 0px;
+    top: 172px;
+    
+}
+article{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 47%;
+    font-size: 30px;
+}
