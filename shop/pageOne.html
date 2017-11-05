@@ -3,22 +3,26 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="pageOne.css">
+    <script src="jquery-1.10.2.js"></script>
+    <script src="pageOne.js"></script>
 </head>
 <body>
     <header>
-        <div>LOGO</div>
+        <div><img src="logo.png" alt="" id="logo"></div>
         <aside>
-        <div>Войти</div>
+        <div id="enter">Войти</div>
         <div id="basket"><p>Корзина</p> <img src="Tilda_Icons_3_Store/Tilda_Icons_3st_bag.svg" alt=""></div>
         </aside>
     </header>
     <nav>
-        <a href="pageOne.html">Home</a>
-        <a href="pageTwo.html" target="_blank">Profile</a>
-        <a href="#">Profile</a>
-        <a href="#">Profile</a>
-        <a href="#">Profile</a>
-        <a href="#">Profile</a>
+       <ol>
+       <li>Home</li>
+       <li>Profile</li>
+       <li>Profile</li>
+       <li>Profile</li>
+       <li>Profile</li>
+       <li>Profile</li>
+       </ol>
     </nav>
     <section>
      <div><p>А</p><p>К</p><p>Ц</p><p>И</p><p>Я</p></div>
@@ -35,23 +39,77 @@
         <div id="towars">
             <div>
             <img src="towars/4341336704_2_1_1.jpg" alt="">
-            <div></div>
+            <div><p>Куртка для вашего сына гея, отлично будет седеть на том кто желает быть постоянно битым и униженным</p></div>
             </div>
                        
             <div>
             <img src="towars/5320550800_2_1_1.jpg" alt="">
-            <div></div>
+            <div><p>Куртка для вашего сына гея, отлично будет седеть на том кто желает быть постоянно битым и униженным</p></div>
             </div>
                         
                         
             <div>
             <img src="towars/6985313505_2_1_1.jpg" alt="">
-            <div></div>
+            <div><p>Куртка для вашего сына гея, отлично будет седеть на том кто желает быть постоянно битым и униженным</p></div>
             </div>
         </div>
     </section>
     <footer>
-        
+        <div><p>Сайт был разработан компанией Vostok, Yaroslav Shypunov</p></div>
+        <div>
+        <h3>График работы</h3>
+        <table>
+            <tr>
+                <td>Пн-Пт</td>
+                <td>08:00-22:00</td>
+            </tr>
+            <tr>
+                <td>Сб-Вс</td>
+                <td>12:00-20:00</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+            <h3>Свяжитесь с  нами </h3>
+            <div>
+               <img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_mail.svg" alt="">
+                <input type="email">
+            </div>
+        </div>
+        <div>
+            <h3>Социальные сети</h3>
+            <a href="https://www.facebook.com/yaroslav.shypunov"><img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_facebook.svg" alt=""></a>
+            <a href=""><img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_vkontakte.svg" alt=""></a> 
+            <a href=""><img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_instagram.svg" alt=""></a>
+            <a href=""><img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_twitter.svg" alt=""></a>
+            <div>
+                <img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_telegram.svg" alt="">
+                <img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_viber.svg" alt="">
+                <img src="Tilda_Icons_3_Store/Tilda_Icons_26sn_whatsapp.svg" alt="">
+                <span>+380996478165</span>
+            </div>
+        </div>
     </footer>
+    <div id="using">
+      <div>
+       <label for="username">Введите логин:</label> 
+       <div>
+        <img src="Tilda_Icons_3_Store/Tilda_Icons_3st_man.svg" alt=""><input type="text" id="username">
+        </div> 
+        </div>
+        <div>
+        <label for="password">Введите пароль:</label> 
+        <div>
+        <img src="Tilda_Icons_3_Store/Tilda_Icons_30_system_settings.svg" alt="">
+        <input type="text" id="password">
+        </div>
+        </div>
+        <div id="CANCELOK">
+        <div>
+            <div>CANCEL</div>
+            <div>OK</div>
+        </div>
+        </div>
+    </div>
 </body>
 </html>

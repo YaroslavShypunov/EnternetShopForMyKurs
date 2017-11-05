@@ -2,6 +2,9 @@ a{
  text-decoration: none;
  color: black;
 }
+body{
+    padding: 20px;
+}
 header{
     background: white;
     display: flex;
@@ -16,8 +19,17 @@ header  img{
 header div{
     width: 150px;
     background: black;
+    margin-right: 100px;
+   
 }
+#logo{
+    width: 350px;
+
+
+}
+
 aside{
+    margin-top: 20px;
     display:flex;
     flex-direction: column;
     align-content: center;
@@ -59,10 +71,27 @@ nav{
     display:flex;
     justify-content: space-around;
 }
-nav a{
-    font-size: 30px;
+nav ol{
+    font-size: 35px;
+    margin-left: -10%;
+}
+nav  li{
+    
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 80px;
+
+}
+.menuHover{
+    font-size: 40px;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
 }
 .links{
+    
     padding: 10px 15px;
     border-radius: 25px;
     border: 2px solid black;
@@ -116,14 +145,30 @@ section div:nth-of-type(1){
 #towars > div:nth-of-type(1){
     margin-top: 0px;
 }
-
 #towars > div div{
+    visibility: hidden;
+    height: 0px;
+    width:300px;
+    -webkit-transition:   height 1s;
+    -o-transition:   height 1s;
+    transition:  height 1s;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: white;
+    font-size: 20px;
+        top:-200px;
+}
+#towars > div:hover div{
+
+    visibility:visible;
     position: relative;
     background: rgba(0,0,0,0.4);
-    width:100%;
+    width:300px;
     height: 200px;
     margin: 0px;
-    top: 172px;
+
+
+    
     
 }
 article{
@@ -131,4 +176,129 @@ article{
     margin-bottom: 50px;
     margin-left: 47%;
     font-size: 30px;
+}
+
+
+/*------------------_____FOOTER____--------------------------------------------------*/
+
+footer{
+    margin-top: 10%;
+    column-count: 4;
+    column-rule:2px solid black;
+    
+}
+footer img{
+    width: 30px;
+    
+    
+}
+footer > div:nth-of-type(1){
+
+    margin-top: -5%;
+}
+footer > div:nth-of-type(1) p{
+    width: 60%;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+footer > div{
+    height: 100px;
+}
+footer h3{
+    text-align: center;
+}
+footer > div:nth-of-type(4){
+    margin-top: 9%;
+}
+footer > div:nth-of-type(2){
+    margin-top: -15%;
+}
+footer > div:nth-of-type(2) table{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+footer tr td:nth-of-type(1){
+    text-align: left;
+    width: 50px;
+}
+footer tr td:nth-of-type(2){
+    text-align: right;
+    width: 100px;
+}
+footer > div:nth-of-type(3) img{
+    margin-left:25%;
+    margin-top: 5%;
+}
+footer > div:nth-of-type(3) input{
+    position: relative;
+    top:-10px;
+}
+footer > div:nth-of-type(4) div{
+    margin-left: 20%;
+    margin-top: %;
+}
+footer > div:nth-of-type(4) div span{
+    position: relative;
+    top:-10px;
+}
+footer > div:nth-of-type(4) a{
+    margin-left: 10%;
+}
+
+
+
+/*------------------------_AUTORIZACJA__-------------------------------------------*/
+#using{
+    position:absolute;
+    z-index: 9999;
+    top: 25%;
+    left: 36%;
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+#using img{
+    width: 30px;
+    
+}
+#using label{
+    font-weight: bold;
+}
+#using > div{
+    margin-top:50px;
+}
+#using > div div{
+
+    display: flex;
+    height: 40px;
+}
+#using div input{
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#using div:nth-of-type(3) div div{
+   margin-left: 30px;
+}
+#CANCELOK{
+    margin-top: -40px;
+    margin-left: 50%;
+    padding: 30px;
+    background: black;
+    color: white;
+    height: 40px;
+    
+}
+#CANCELOK > div > div:nth-of-type(2){
+    background: black;
+    color: white;
+    margin-top: -15px;
+    padding: 20px;
+    
 }
