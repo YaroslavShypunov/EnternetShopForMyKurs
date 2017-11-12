@@ -260,6 +260,7 @@ footer > div:nth-of-type(4) a{
     padding: 20px;
     height: 300px;
     border-radius: 10px;
+    display: none;
     
 }
 #using img{
@@ -270,7 +271,7 @@ footer > div:nth-of-type(4) a{
     font-weight: bold;
 }
 #using > div{
-    margin-top:50px;
+    margin-top:40px;
 }
 #using > div div{
 
@@ -286,19 +287,19 @@ footer > div:nth-of-type(4) a{
 #using div:nth-of-type(3) div div{
    margin-left: 30px;
 }
-#CANCELOK{
-    margin-top: -40px;
-    margin-left: 50%;
-    padding: 30px;
-    background: black;
-    color: white;
-    height: 40px;
-    
-}
+
 #CANCELOK > div > div:nth-of-type(2){
     background: black;
     color: white;
-    margin-top: -15px;
-    padding: 20px;
+    margin-top: -10px;
+    padding: 10px 20px 15px 20px;
+    height: 10px;
+    border-radius: 10px;
     
+}
+#CANCELOK{
+    margin-left: 48%;
+}
+#using > p{
+ text-align: center;
 }
